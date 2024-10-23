@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+#home
+{
+    background-color: #D9D9D9;
+}
+.bg-text
+{
+    margin: 5rem 0;
+}
+.bg-1 img {
+    max-width: 100px; /* Set a max width for thumbnails */
+}
+.bg img
+{
+    width: 100%;
+    height: 110vh;
+    object-fit: contain;
+   
+}
+
+#counter
+{
+    background: #131114;
+    color: white;
+}
+.counter-app
+{
+    padding: 2.5rem 0;
+    text-align: center;   
+}
+.counter-app h2
+{
+    font-size: 40px;
+    
+}
+.counter-app small
+{
+    font-size: 19px;
+    text-align: center;
+}
+
+
+.service-text
+{
+    text-align: center;
+    margin: 3rem 0;
+}
+.service-text h5
+{
+    font-size: 18px;
+}
+.service-text h1
+{
+    margin: 18px 0;
+    line-height: 10vh;
+}
+.service-text p
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#fb
+{
+    background-color: #131114;
+    color: white;
+    width: 80%;
+    margin:0px auto;
+    border: 1px solid #131114;
+    border-radius: 16px;
+    min-height: 100vh;
+}
+.fb-bg img
+{
+    width: 900px;
+    height: 346px;
+    display: block;
+    border-radius: 15px;
+    opacity: 0px;
+    margin: auto;
+}
+.fb-text
+{
+    padding: 20px;
+    text-align: center;
+    margin-left: 22px;
+}
+.fb-text p
+{
+font-family: DM Sans;
+font-size: 12.5px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+
+}
+.fb-text h2
+{
+    margin: 20px 0;
+font-family: DM Sans;
+font-size: 28px;
+font-weight: 400;
+line-height: 36.4px;
+text-align: left;
+
+}
+.fb-text button
+{
+    margin-top: 3rem;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.6px;
+    margin-left: 14rem;
+    padding:10px 12px ;
+    width: 155px;
+    height: 55px;
+    
+
+}
+
+#brand
+{
+    margin: 4.6rem 0;
+}
+.p2
+{
+width: 100%;
+height: 254px;
+top: 2395px;
+left: 150px;
+padding: 50px 50px 32px 50px;
+gap: 10px;
+border-radius: 15px;
+opacity: 0px;
+background-color: #00B8A8;
+
+}
+.p2 h2
+{
+font-family: DM Sans;
+font-size: 32px;
+font-weight: 400;
+line-height: 41.6px;
+text-align: center;
+}
+.p2 p
+{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: center;
+}
+
+.p3
+{
+width: 100%;
+height: 450px;
+padding: 81px 159px 112.5px 160px;
+border-radius: 15px;
+opacity: 0px;
+background-color: #131114;
+}
+.p3 h2
+{
+font-family: DM Sans;
+font-size: 48px;
+font-weight: 400;
+line-height: 62.4px;
+text-align: center;
+color: white;
+}
+.p3 img
+{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+
+.brand img
+{
+    border-radius: 15px;
+}
+.brand1
+{
+    border: 1px solid #333333;
+    border-radius: 15px;
+    padding: 16px;
+    width: 100%;
+    font-size: 17px;
+}
+.brand1 button
+{
+   background-color: #397BFB;
+   color: white;
+   width: 24%;
+   padding: 12px;
+   margin-left: 60%;
+}
+
+#key
+{
+    background-color: #D9D9D9;
+    min-height: 120%;
+}
+.key-text h1
+{
+    font-family: DM Sans;
+font-size: 61.13px;
+font-weight: 600;
+line-height: 79.47px;
+text-align: left;
+text-align: center;
+margin: 4rem 0;
+}
+
+.key-list h2
+{
+    font-family: DM Sans;
+font-size: 26.2px;
+font-weight: 600;
+line-height: 34.06px;
+text-align: left;
+}
+.key-list li
+{
+font-family: DM Sans;
+font-size: 15.72px;
+font-weight: 400;
+line-height: 21.22px;
+margin: 10px 0;
+}
+.key-bg img
+{
+     width: 100%;
+    min-height: 67vh;
+}
+
+#choose
+{
+    background-color: #000000;
+    color: white;
+}
+.choose-text 
+{
+    margin: 7rem 0;
+}
+.choose-text h5
+{
+color: #B3B3B3;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+
+
+}
+.choose-text h1
+{
+    font-family: DM Sans;
+font-size: 56px;
+font-weight: 400;
+line-height: 61.6px;
+text-align: left;
+margin: 15px 0;
+}
+.choose-text p
+{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+.work-text
+{
+    margin: 6rem;
+    text-align: center;
+}
+.work-text h5
+{
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: center;
+}
+.work-text h2
+{
+font-family: DM Sans;
+font-size: 56px;
+font-weight: 400;
+line-height: 72.8px;
+text-align: center;
+color: #000000;
+}
+.work-text p
+{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+}
+
+.works h5
+{
+
+font-family: DM Sans;
+font-size: 17px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+}
+.works h4
+{
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 31.2px;
+text-align: left;
+
+}
+.works button
+{
+background-color: #131114;
+width:  150px;
+height: 50px;
+padding: 16px 30px 16px 30px;
+gap: 10px;
+border-radius: 6px;
+border: 1px;
+opacity: 0px;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: left;
+margin-left: auto;
+display: block;
+margin-top: 15px;
+}
+
+.work-bg img
+{
+    height: 80vh;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.work-bg p
+{
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+margin: 2.4rem 0;
+}
+.work-bg button
+{
+display: block;
+margin: auto;
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: left;
+padding: 15px 20px;
+
+}
+
+
+#team
+{
+    background-color: #000000;
+    color: white;
+}
+.team h4
+{
+    font-family: DM Sans;
+font-size: 30px;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+}
+.team-text h3
+{
+    font-family: DM Sans;
+font-size: 42.87px;
+font-weight: 700;
+line-height: 55.73px;
+text-align: left;
+}
+.team h4
+{
+    margin: 3rem 0;
+}
+
+.team-text p
+{
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 37.51px;
+text-align: left;
+margin: 1rem 0;
+}
+.team-bg img
+{
+    margin-left: auto;
+    display: block;
+}
+
+
+
+.testimonial-card {
+    background-color: #1e1e1e;
+    width: 350px;
+    margin: 1rem 0;
+    height: 86%;
+}
+
+.star-rating i {
+    margin-right: 2px;
+    margin: 8px 0;
+    color: #81FFBD;
+    font-size: 20px;
+}
+.testimonial-card h5 {
+font-family: DM Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 31.2px;
+text-align: left;
+
+}
+.testimonial-card p {
+    font-family: DM Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+color: #B3B3B3;
+
+}
+
+.testimonial-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px; 
+}
