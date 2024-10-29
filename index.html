@@ -4,21 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Css Link -->
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="responsive.css">
      <!-- Bootstrap5 Link -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
      <!-- Font Awesome CDN -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Animation Cdn Link -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     
     <title>Daniyal Inteesar Portfolio</title>
 </head>
 <body>
 
     <!-- Home Section Start -->
      <section id="home">
-        <nav class="navbar navbar-expand-lg" style="background: #000000;">
+        <nav class="navbar navbar-expand-lg " style="background: #000000;">
             <div class="container">
                 <img src="asset/logo.png" alt="" class="img-fluid" style="width: 170px;">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars " style="background-color: white; color: black; padding: 10px 19px; border-radius: 12px;"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-center">
@@ -26,19 +30,19 @@
                     <a class="nav-link active text-white" aria-current="page" href="#" style="margin-left: 24px;">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#" style="margin-left: 24px;">ABOUT</a>
+                    <a class="nav-link text-white" href="service.html" style="margin-left: 24px;">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#" style="margin-left: 24px;">SERVICES</a>
+                    <a class="nav-link text-white" href="#" style="margin-left: 24px;">Case Studies</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#" style="margin-left: 24px;">TRAINING</a>
+                    <a class="nav-link text-white" href="#" style="margin-left: 24px;">Blogs</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#" style="margin-left: 24px;">BLOGS</a>
+                    <a class="nav-link text-white" href="#" style="margin-left: 24px;">Pricing</a>
                   </li>
                 </ul>
-                <button class="btn btn-primary" style="background-color: white; color: #000000; border: 1px solid #000000; border-radius: 10px;">Contact Me</button>
+               <a href="contact.html" style="text-decoration: none;"><button class="btn btn-primary" style="background-color: white; color: #000000; border: 1px solid #000000; border-radius: 10px; margin: auto; display: block;">Contact Me</button></a>
               </div>
             </div>
           </nav>
@@ -47,22 +51,23 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="bg-text">
-                        <small style="font-size: 19px;">Hi, I’m Daniyal</small>
-                        <h1 style="margin: 12px 0; line-height: 10vh;">Digital Marketer With 7+ Years Experience</h1>
-                        <p style="font-size: 18px; line-height: 6vh;">Driving targeted traffic and conversions with high-impact Instagram and Facebook ads, Search Engine Optimized Strategies, creative brand designing and lead generation.</p>
-                        <button class="btn btn-primary">Free Consultation</button>
-                        <p style="margin: 20px 0; font-weight: bold;">Trusted by Several Unicorn Companies</p>
-                        <!-- <div class="bg-1 d-flex flex-wrap justify-content-evenly">
-                            <img src="asset/1.png" alt="" class="img-fluid">
-                            <img src="asset/2.png" alt="" class="img-fluid">
-                            <img src="asset/3.png" alt="" class="img-fluid">
-                            <img src="asset/4.png" alt="" class="img-fluid">
-                        </div> -->
+                        <small data-aos="fade-down" data-aos-duration="800">Hi, I’m Daniyal</small>
+                        <h1 data-aos="fade-down" data-aos-duration="900">Digital Marketer With 7+ Years Experience</h1>
+                        <p  data-aos="fade-down" data-aos-duration="900">Driving targeted traffic and conversions with high-impact Instagram and Facebook ads, Search Engine Optimized Strategies, creative brand designing and Ecommerce services. 
+                        </p>
+                        <button data-aos="fade-down" data-aos-duration="900" class="btn btn-primary ">Free Consultation</button>
+                        <p style="margin: 20px 10px; font-weight: bold;" data-aos="fade-down" data-aos-duration="900">Trusted by Several Unicorn Companies</p>
+                        <div class="bg-1 d-flex flex-wrap justify-content-start">
+                            <img src="asset/1.png" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="900">
+                            <img src="asset/2.png" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="900">
+                            <img src="asset/3.png" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="900">
+                            <img src="asset/4.png" alt="" class="img-fluid" style="object-fit: contain;" data-aos="fade-down" data-aos-duration="900">
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="bg">
-                        <img src="asset/bg.png" alt="" class="img-fluid">
+                        <img src="asset/bg.png" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="900">
                     </div>
                 </div>
             </div>
@@ -74,32 +79,37 @@
     <!-- Counter Section Start -->
     <section id="counter">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="counter-app">
-                        <h2 class="count" data-count="34000">0</h2>
+            <div class="row text-white">
+                <div class="col-md-3 d-flex justify-content-center position-relative">
+                    <div class="counter-app" data-aos="zoom-in-right" data-aos-duration="800">
+                        <h2 class="count" data-count="34000">34K +</h2>
                         <small>Ads Launched</small>
                     </div>
+                    <div class="border-divider" data-aos="zoom-in-right" data-aos-duration="800"></div>
                 </div>
-                <div class="col-md-3">
-                    <div class="counter-app">
-                        <h2 class="count" data-count="210000">0</h2>
+                <div class="col-md-3 d-flex justify-content-center position-relative">
+                    <div class="counter-app" data-aos="zoom-in-right" data-aos-duration="800">
+                        <h2 class="count" data-count="210000">210 +</h2>
                         <small>Clients Supported</small>
                     </div>
+                    <div class="border-divider" data-aos="zoom-in-right" data-aos-duration="800"></div>
                 </div>
-                <div class="col-md-3">
-                    <div class="counter-app">
-                        <h2 class="count" data-count="54000">0</h2>
+                <div class="col-md-3 d-flex justify-content-center position-relative">
+                    <div class="counter-app" data-aos="zoom-in-right" data-aos-duration="800">
+                        <h2 class="count" data-count="54000">54K +</h2>
                         <small>Leads Generated</small>
                     </div>
+                    <div class="border-divider" data-aos="zoom-in-right" data-aos-duration="800"></div>
                 </div>
-                <div class="col-md-3">
-                    <div class="counter-app">
-                        <h2 class="count" data-count="80000">0</h2>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div class="counter-app" data-aos="zoom-in-right" data-aos-duration="800">
+                        <h2 class="count" data-count="500000">500K +</h2>
                         <small>Conversions Delivered</small>
                     </div>
                 </div>
             </div>
+            
+            
         </div>
     </section>
     <!-- Counter Section End -->
@@ -110,9 +120,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="service-text">
-                        <h5>My Services</h5>
-                        <h1>Strategic Digital Campaigns  <br> that Drive Results</h1>
-                        <p>My customized digital marketing and branding strategies are designed to boost visibility and  <br> drive meaningful engagement. From targeted campaigns to creative branding, I will help you <br> reach the right audience and achieve measurable growth.</p>
+                        <!-- <h5>My Services</h5> -->
+                        <h1 data-aos="zoom-in" data-aos-duration="650">Strategic Digital Campaigns  that Drive Results</h1>
+                        <p data-aos="zoom-in" data-aos-duration="650">My result oriented Digital Marketing Services are targeted to drive meaningful engagement and <br> convert it to sales. From strategy to execution, each campaign is designed to meet <br> your unique business goals and deliver measurable growth.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -125,13 +136,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="fb-text">
-                        <h2>Facebook and Instagram Ads</h2>
-                        <p>Turn clicks into customers with targeted Facebook and Instagram ads! Grow your brand to the next level with personalized Digital Marketing Strategies</p>
+                        <h2 data-aos="zoom-in" data-aos-duration="650">Facebook and Instagram Ads</h2>
+                        <p data-aos="zoom-in" data-aos-duration="650">Turn clicks into customers with targeted Facebook and Instagram ads! Grow your brand to the next level with personalized Digital Marketing Services.
+
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="fb-text">
-                        <button class="btn btn-dark">Learn More</button>
+                        <button class="btn btn-dark" style="display: block; margin-left: auto;" data-aos="zoom-in" data-aos-duration="650">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -140,7 +153,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="fb-bg">
-                        <img src="asset/fb.jpg" alt="" class="img-fluid">
+                        <img src="asset/dash.jpg" alt="" class="img-fluid" data-aos="zoom-in" data-aos-duration="650">
                     </div>
                 </div>
             </div>
@@ -153,22 +166,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="p2 m-2">
-                        <h2>Company Branding and Designing</h2>
-                        <p>From logos, social media posts to complete branding, my expert team crafts creative designs that make your brand stand out and leave a lasting impression</p>
+                    <div class="p2 m-2"  data-aos="flip-right" data-aos-duration="800" >
+                        <h2 >Graphic Designing and UI UX
+                        </h2>
+                        <p>From engaging social media posts to full-scale branding, I create user-friendly landing pages that keep your clients engaged, encouraging them to spend more time on your website and take meaningful actions for high-quality leads.
+                        </p>
                     </div>
-                    <div class="brand m-2">
+                    <div class="brand m-2"  data-aos="flip-right" data-aos-duration="1000" >
                             <img src="asset/brand.png" alt="" class="img-fluid" style="margin-top: 20px;">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="p3 m-2">
-                        <h2>SEO Campaign and 
-                            Strategy</h2>
-                            <img src="asset/arrow.png" alt="" class="img-fluid">
+                    <div class="p3 m-2"  data-aos="flip-right" data-aos-duration="1000" >
+                        <h2>SEO Campaign Strategy</h2>
+                            <img src="asset/arrow.png" alt="" class="img-fluid" data-aos="flip-right" data-aos-duration="1000" >
                     </div>
-                    <div class="brand1 m-2">
-                        <p>All-in-one creative services, from dynamic Facebook and Instagram ads to standout company branding, SEO, and web development—designed to drive results and make your brand unforgettable</p>
+                    <div class="brand1"  data-aos="flip-right" data-aos-duration="1000" >
+                        <p>All services - All-in-one creative services, from dynamic Facebook and Instagram ads to standout company branding, SEO, and web development—designed to drive results and make your brand unforgettable!
+                        </p>
                         <button class="btn btn-primary">All Services</button>
                     </div>
                     
@@ -184,7 +199,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="key-text">
+                    <div class="key-text" data-aos="zoom-in-down" data-aos-duration="1000">
                         <h1>Analytics and Insights</h1>
                     </div>
                 </div>
@@ -193,13 +208,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="key-list">
+                    <div class="key-list" data-aos="zoom-in-down" data-aos-duration="1000">
                         <h2>Overview of Paid Reach</h2>
                         <li>Total Paid Reach: 8.4 Million</li>
                         <li>Total Paid Impressions: 92 Million</li>
                         <li>Total Amount Spent: Rs 14,144,380.41</li>
                     </div>
-                    <div class="key-list" style="margin: 1.7rem 0;">
+                    <div class="key-list" style="margin: 1.7rem 0;" data-aos="zoom-in-down" data-aos-duration="1000">
                         <h2>Key Takeaways</h2>
                         <li>Exceptional Reach significantly <br> expanding brand visibility.</li>
                         <li>High Engagement indicating strong <br> audience interest</li>
@@ -208,8 +223,8 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="key-bg">
-                        <img src="asset/key.jpg" alt="" class="img-fluid">
+                    <div class="key-bg" data-aos="zoom-in-down" data-aos-duration="1000">
+                        <img src="asset/key.jpg" alt="" class="img-fluid" data-aos="zoom-in-down" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
@@ -218,26 +233,72 @@
      <!-- Key Section End -->
 
      <!-- Choose Section Start -->
-      <section id="choose">
+     <section id="choose">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="choose-text">
+                    <div class="choose-text"  data-aos="fade-right" data-aos-duration="800">
                         <h5>Why Choose Me</h5>
                         <h1>Result Oriented <br> Digital Marketing <br> Partner 
                         </h1>
-                        <p>With over 1 million monthly impressions and 92 million total impressions, my targeted campaigns have generated an impressive 5,000 to 6,000 conversations per ad. We have achieved remarkable engagement, with over 250,000 interactions on a single ad and 25,000 link clicks, all at a cost of just 1.5 AED per click. Hire me to handle all of your Digital Marketing needs for sustainable growth!</p>
+                        <p>With over 1 million monthly impressions and <span style="font-weight: bolder; color: white;">92 million</span> total impressions, my targeted campaigns have generated an impressive 5,000 to 6,000 conversations per ad. We have achieved remarkable engagement, with over 250,000 interactions on a single ad and 25,000 link clicks, all at a cost of just 1.5 AED per click. Hire me to handle all of your Digital Marketing needs for sustainable growth!</p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="choose-text">
-                        <img src="asset/bs.png" alt="" class="img-fluid">
+                    <div class="choose-text"  data-aos="fade-right" data-aos-duration="800">
+                        <img src="asset/bs.png" alt="" class="img-fluid"  data-aos="fade-right" data-aos-duration="800">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container ">
+            <h4 class="text-white" data-aos="fade-right" data-aos-duration="800">My Expertise:</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="expertise-box digital-marketing" data-aos="fade-right" data-aos-duration="800">
+                        <i class="fas fa-bullhorn expertise-icon" data-aos="fade-right" data-aos-duration="800"></i>
+                        Facebook and Instagram Ads 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="expertise-box seo-campaigns" data-aos="fade-right" data-aos-duration="800">
+                        <i class="fas fa-chart-line expertise-icon" data-aos="fade-right" data-aos-duration="800"></i>
+                        Search Engine Optimization
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="expertise-box analytics-reporting" data-aos="fade-right" data-aos-duration="800">
+                        <i class="fas fa-chart-pie expertise-icon" data-aos="fade-right" data-aos-duration="800"></i>
+                        E-commerce Development
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="expertise-box content-marketing" data-aos="fade-right" data-aos-duration="800">
+                        <i class="fas fa-edit expertise-icon" data-aos="fade-right" data-aos-duration="800"></i>
+                        Graphics and UI UX Designing
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="expertise-box company-branding" data-aos="fade-right" data-aos-duration="800">
+                        <i class="fas fa-building expertise-icon" data-aos="fade-right" data-aos-duration="800"></i>
+                        PPC Marketing
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="expertise-box leads-generation" style="color: black;" data-aos="fade-right" data-aos-duration="800">
+                        <i class="fas fa-users expertise-icon" data-aos="fade-right" data-aos-duration="800"></i>
+                        Leads Generation
                     </div>
                 </div>
             </div>
         </div>
 
       </section>
+    
      <!-- Choose Section End -->
 
 
@@ -246,7 +307,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="work-text">
+                    <div class="work-text" data-aos="zoom-out" data-aos-duration="1800">
                         <h5>Recent Works</h5>
                         <h2>Highlighted Projects and <br> Case Studies</h2>
                         <p>Explore our highlighted projects and case studies that showcase impactful strategies and <br> successful outcomes across various industries and clients</p>
@@ -258,20 +319,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="works">
+                    <div class="works" data-aos="zoom-out" data-aos-duration="1800">
                         <h5>(01)</h5>
                         <h4>LeftoversDen </h4>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="works">
+                    <div class="works" data-aos="zoom-out" data-aos-duration="1800">
                         <h5>2024</h5>
                         <p>Launched an integrated marketing campaign for an e-commerce startup, increasing traffic by 60%.
                         </p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="works">
+                    <div class="works" data-aos="zoom-out" data-aos-duration="1800">
                         <button class="btn btn-primary">Read More</button>
                     </div>
                 </div>
@@ -281,7 +342,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="work-bg">
-                        <img src="asset/dashboard.jpg" alt="" class="img-fluid">
+                        <img src="asset/home leftoversden.png" alt="" class="img-fluid" data-aos="zoom-out" data-aos-duration="1800">
                     </div>
                 </div>
             </div>
@@ -292,13 +353,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="works">
+                        <div class="works" data-aos="zoom-out" data-aos-duration="1800">
                             <h5>(02)</h5>
                             <h4>NS Training  </h4>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="works">
+                        <div class="works" data-aos="zoom-out" data-aos-duration="1800">
                             <h5>2023</h5>
                             <p>Developed a comprehensive mobile app design for a training startup, featuring a user-friendly interface for courses.
     
@@ -306,7 +367,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="works">
+                        <div class="works" data-aos="zoom-out" data-aos-duration="1800">
                             <button class="btn btn-primary">Read More</button>
                         </div>
                     </div>
@@ -316,9 +377,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="work-bg">
-                            <img src="asset/bg1.png" alt="" class="img-fluid">
-                            <p>Discover how our innovative strategies have driven success for clients across diverse <br> industries. Explore more of our impactful projects and see the full scope of what we <br> can do for you.</p>
-                            <button class="btn btn-primary">See All Projects</button>
+                            <img src="asset/ns.jpg" alt="" class="img-fluid" style="border-radius: 15px; height: 100vh;" data-aos="zoom-out" data-aos-duration="1800">
+                            <p data-aos="zoom-out" data-aos-duration="1800">Discover how our innovative strategies have driven success for clients across diverse <br> industries. Explore more of our impactful projects and see the full scope of what we <br> can do for you.</p>
+                            <button class="btn btn-primary" data-aos="zoom-out" data-aos-duration="1800">See All Projects</button>
                         </div>
                     </div>
                 </div>
@@ -329,111 +390,106 @@
 
 
      <!-- Testinomail Section Start -->
-      <section id="team">
+     <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                   <div class="team">
-                    <h4>Testimonials</h4>
-                   </div>
+                    <div class="team" data-aos="zoom-in" data-aos-duration="800">
+                        <h4>Testimonials</h4>
+                    </div>
                 </div>
             </div>
         </div>
-
+    
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="team-bg">
+                    <div class="team-bg" data-aos="zoom-in" data-aos-duration="800">
                         <img src="asset/bg3.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="team-text">
+                    <div class="team-text" data-aos="zoom-in" data-aos-duration="800">
                         <h3>Messam Raza</h3>
                         <img src="asset/Star.png" alt="" class="img-fluid">
-                        <p>Daniyal turned out to be a fantastic partner in our <br> quality leads and business growth. What really <br> impressed us was his ability to explain technical jargon <br> in a way that was easy to understand. Our sales <br> increased exceptionally with his lead generation and <br> marketing strategies. 
-                        </p>
+                        <p>Daniyal turned out to be a fantastic partner in our quality leads and business growth. What really impressed us was his ability to explain technical jargon in a way that was easy to understand. Our sales increased exceptionally with his lead generation and marketing strategies. 
+                         </p>
                     </div>
                 </div>
             </div>
         </div>
-
+    
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="asset/Line.png" alt="" class="img-fluid" style="margin: 2rem 0;">
+                    <img src="asset/Line.png" alt="" class="img-fluid" style="margin: 2rem 0;" data-aos="zoom-in" data-aos-duration="800">
                 </div>
             </div>
         </div>
-
-        <div class="container d-flex justify-content-center align-items-center">
-           <div class="row">
-            <div class="col-md-4">
-                <div class="testimonial-card p-4 rounded">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="asset/saman.jpg" class=" me-3" alt="Profile Image">
-
-                        <div>
-                            <h5 class="mb-0">Saman Ishtiaq</h5>
-                            <div class="star-rating text-warning">
-                               <i class="fa-duotone fa-solid fa-star"></i>
-                               <i class="fa-duotone fa-solid fa-star"></i>
-                               <i class="fa-duotone fa-solid fa-star"></i>
-                               <i class="fa-duotone fa-solid fa-star"></i>
-                               <i class="fa-duotone fa-solid fa-star"></i>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 d-flex">
+                    <div class="testimonial-card p-4 rounded" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="d-flex align-items-center mb-3" data-aos="zoom-in" data-aos-duration="800">
+                            <img src="asset/saman.jpg" class="me-3" alt="Profile Image">
+                            <div>
+                                <h5 class="mb-0" data-aos="zoom-in" data-aos-duration="800">Saman Ishtiaq</h5>
+                                <div class="star-rating text-warning">
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                </div>
                             </div>
                         </div>
+                        <p>It has been an exciting journey working with Daniyal. He took the time to listen to our challenges and offered customized solutions that were spot-on. We’re thrilled with the results and the ongoing support they provide.
+                        </p>
                     </div>
-                    <p>
-                        It has been an exciting journey working with Daniyal. He took the time to listen to our challenges and offered customized solutions that were spot-on. We’re thrilled with the results and the ongoing support they provide.
-                    </p>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="testimonial-card p-4 rounded">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="asset/shazam.jpg" class=" me-3" alt="Profile Image">
-
-                        <div>
-                            <h5 class="mb-0">Muhammad Shazam</h5>
-                            <div class="star-rating text-warning">
-                                <i class="fa-duotone fa-solid fa-star"></i>
-                                <i class="fa-duotone fa-solid fa-star"></i>
-                                <i class="fa-duotone fa-solid fa-star"></i>
-                                <i class="fa-duotone fa-solid fa-star"></i>
-                                <i class="fa-duotone fa-solid fa-star"></i>
+                <div class="col-md-4 d-flex">
+                    <div class="testimonial-card p-4 rounded" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="d-flex align-items-center mb-3" data-aos="zoom-in" data-aos-duration="800">
+                            <img src="asset/shazam.jpg" class="me-3" alt="Profile Image" data-aos="zoom-in" data-aos-duration="800">
+                            <div>
+                                <h5 class="mb-0">Muhammad Shazam</h5>
+                                <div class="star-rating text-warning">
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                   <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                </div>
                             </div>
                         </div>
+                        <p>Working with Daniyal has been a game-changer for our business. His personalized approach made us feel like a priority. His support didn’t end after the project; he continued to be a valuable partner in our growth journey.
+                        </p>
                     </div>
-                    <p>
-                        Working with Daniyal has been a game-changer for our business. His personalized approach made us feel like a priority. His support didn’t end after the project; he continued to be a valuable partner in our growth journey.
-                    </p>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="testimonial-card p-4 rounded">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="asset/shakeel.jpg" class=" me-3" alt="Profile Image">
-
-                        <div>
-                            <h5 class="mb-0">Muhammad Shakeel</h5>
-                            <div class="star-rating text-warning">
-                                <i class="fa-duotone fa-solid fa-star"></i>
-                                <i class="fa-duotone fa-solid fa-star"></i>
-                                <i class="fa-duotone fa-solid fa-star"></i>
-                                <i class="fa-duotone fa-solid fa-star"></i>
-                                <i class="fa-duotone fa-solid fa-star"></i>
+                <div class="col-md-4 d-flex">
+                    <div class="testimonial-card p-4 rounded" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="d-flex align-items-center mb-3" data-aos="zoom-in" data-aos-duration="800">
+                            <img src="asset/shakeel.jpg" class="me-3" alt="Profile Image" data-aos="zoom-in" data-aos-duration="800">
+                            <div>
+                                <h5 class="mb-0">Muhammad Shakeel</h5>
+                                <div class="star-rating text-warning" data-aos="zoom-in" data-aos-duration="800">
+                                    <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                    <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                    <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                    <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                    <i class="fa-duotone fa-solid fa-star" data-aos="zoom-in" data-aos-duration="800"></i>
+                                </div>
                             </div>
                         </div>
+                        <p>We’ve had a fantastic experience with Daniyal and his team. Their approach is refreshingly straightforward, and their team is always ready to go the extra mile. They made sure our project was not just another job for them but a genuine opportunity to help us achieve our goals.</p>
                     </div>
-                    <p>
-                        We’ve had a fantastic experience with Daniyal and his Team. Their approach is refreshingly straightforward, and their team is always ready to go the extra mile. They made sure our project was not just another job for them but a genuine opportunity to help us achieve our goals. 
-                    </p>
                 </div>
             </div>
-           </div>
         </div>
-      </section>
+    </section>
+    
+    
      <!-- Testinomail Section End -->
 
      <!-- Partner Section Start -->
@@ -441,9 +497,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="partner">
+                    <div class="partner" data-aos="fade-up"
+     data-aos-duration="2000">
                         <h4>Client & Partners</h4>
                         <h2>Building Success with Our Clients and Partners</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo" data-aos="fade-up"
+     data-aos-duration="2000">
+                        <img src="asset/Logo Client.png" alt="" class="img-fluid" data-aos="fade-up"
+     data-aos-duration="2000">
                     </div>
                 </div>
             </div>
@@ -451,7 +520,73 @@
       </section>
      <!-- Partner Section End -->
 
+
+   <!-- Footer -->
+   <footer class="footer pt-5 pb-3 text-white">
+    <div class="container">
+      <div class="row">
+        <!-- Logo and Intro -->
+        <div class="col-md-4">
+          <div class="d-flex align-items-center mb-3">
+            <img src="asset/gl.png" alt="USEO Logo" style="height: 50px;"> <!-- Replace with your logo path -->
+            
+          </div>
+          <p>Now you know about us, we’d love to get to know you better. Why not drop us a message today and introduce yourself? It could be the beginning of a beautiful relationship!</p>
+          <p>Dubai | Toronto | Riyadh</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-3 border-start border-light ps-4">
+          <h6>Contact Us</h6>
+          <p>1207 Mazaya BB2 JLT, Dubai</p>
+          <p>Call Us: +971 4 442 6518</p>
+          <p>Email Us: info@useo.ae</p>
+          <p><a href="#" class="text-white">Send Inquiry Request</a></p>
+          <p><a href="#" class="text-white">Schedule Meeting</a></p>
+        </div>
+
+        <!-- Solutions -->
+        <div class="col-md-3 border-start border-light ps-4">
+          <h6>Dive Into the Solutions</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Web Design & Development</a></li>
+            <li><a href="#" class="text-white">Digital Marketing</a></li>
+            <li><a href="#" class="text-white">Social Media Marketing</a></li>
+            <li><a href="#" class="text-white">Branding</a></li>
+            <li><a href="#" class="text-white">Digital Consultancy</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 border-start border-light ps-4">
+          <h6>Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Blogs</a></li>
+            <li><a href="#" class="text-white">E-Books</a></li>
+            <li><a href="#" class="text-white">Who We Are?</a></li>
+            <li><a href="#" class="text-white">Contact Us</a></li>
+            <li><a href="#" class="text-white">Schedule Meeting</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p>Copyright © 2023 USEO.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="java.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

@@ -15,8 +15,40 @@
 {
     margin: 5rem 0;
 }
+.bg-text button
+{
+    margin: 10px 0;
+}
+.bg-text small
+{
+color: #000000;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+} 
+.bg-text h1
+{
+    color: black;
+font-family: DM Sans;
+font-size: 64px;
+font-weight: 300;
+line-height: 83.2px;
+text-align: left;
+
+}
+.bg-text p
+{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
 .bg-1 img {
-    max-width: 100px; /* Set a max width for thumbnails */
+    max-width: 100px; 
 }
 .bg img
 {
@@ -31,21 +63,40 @@
     background: #131114;
     color: white;
 }
-.counter-app
-{
+.counter-app {
     padding: 2.5rem 0;
-    text-align: center;   
-}
-.counter-app h2
-{
-    font-size: 40px;
-    
-}
-.counter-app small
-{
-    font-size: 19px;
     text-align: center;
+    position: relative;
 }
+.border-divider {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60px; 
+    width: 1px;
+    background-color: #333333;
+}
+
+.col-md-3:last-child .border-divider {
+    display: none;
+}
+
+.counter-app h2 {
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 83.2px;
+}
+
+.counter-app small {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+
 
 
 .service-text
@@ -55,7 +106,8 @@
 }
 .service-text h5
 {
-    font-size: 18px;
+    font-size: 29px;
+    font-weight: 400;
 }
 .service-text h1
 {
@@ -72,20 +124,18 @@
 {
     background-color: #131114;
     color: white;
-    width: 80%;
+    width: 95%;
     margin:0px auto;
     border: 1px solid #131114;
     border-radius: 16px;
-    min-height: 100vh;
+    min-height: 107vh;
 }
 .fb-bg img
 {
-    width: 900px;
-    height: 346px;
-    display: block;
+   width: 100%;
     border-radius: 15px;
     opacity: 0px;
-    margin: auto;
+    
 }
 .fb-text
 {
@@ -182,6 +232,7 @@ font-weight: 400;
 line-height: 62.4px;
 text-align: center;
 color: white;
+
 }
 .p3 img
 {
@@ -195,21 +246,35 @@ color: white;
 {
     border-radius: 15px;
 }
-.brand1
+.brand1 
 {
     border: 1px solid #333333;
     border-radius: 15px;
-    padding: 16px;
+    padding: 16px 30px;
     width: 100%;
     font-size: 17px;
+    margin: 0.86rem 0;
+}
+.brand1 p
+{
+    padding: 0.2rem;
+    margin: 10px;
 }
 .brand1 button
 {
    background-color: #397BFB;
    color: white;
-   width: 24%;
-   padding: 12px;
-   margin-left: 60%;
+   width: 158px;
+   height: 54px;
+   top: 140px;
+   left: 353px;
+   padding: 16px 30px 16px 30px;
+   gap: 10px;
+   border-radius: 6px;
+   opacity: 0px;
+   display: block;
+   margin-left: auto;
+   
 }
 
 #key
@@ -254,6 +319,7 @@ margin: 10px 0;
 {
     background-color: #000000;
     color: white;
+    padding: 5rem 0;
 }
 .choose-text 
 {
@@ -286,7 +352,55 @@ margin: 15px 0;
     font-size: 16px;
     line-height: 24px;
     margin: 20px 0;
+    color: #B3B3B3;
 }
+
+ /* Box styles */
+ .expertise-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+    text-align: center;
+}
+.digital-marketing {
+    background-color: #4E4C78; 
+}
+
+.seo-campaigns {
+    background-color: #202020; 
+}
+
+.analytics-reporting {
+    background-color: #F2BBF4; 
+    color: black; 
+}
+
+.content-marketing {
+    background-color: #202020; 
+}
+
+.company-branding {
+    background-color: #202020; 
+}
+
+.leads-generation {
+    background-color: #00B4A5; 
+}
+.expertise-icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+.expertise-box:hover {
+    transform: translateY(-5px);
+}
+
 
 .work-text
 {
@@ -312,13 +426,12 @@ color: #000000;
 }
 .work-text p
 {
-    font-family: DM Sans;
+font-family: DM Sans;
 font-size: 18px;
 font-weight: 400;
 line-height: 28.8px;
-text-align: center;
-}
 
+}
 .works h5
 {
 
@@ -326,7 +439,6 @@ font-family: DM Sans;
 font-size: 17px;
 font-weight: 400;
 line-height: 21.6px;
-text-align: left;
 }
 .works h4
 {
@@ -335,8 +447,8 @@ font-size: 18px;
 font-weight: 400;
 line-height: 31.2px;
 text-align: left;
-
 }
+
 .works button
 {
 background-color: #131114;
@@ -363,6 +475,7 @@ margin-top: 15px;
     display: block;
     margin: auto;
     margin-top: 20px;
+    width: 100%;
 }
 
 .work-bg p
@@ -386,12 +499,10 @@ text-align: left;
 padding: 15px 20px;
 
 }
-
-
-#team
+.fb-bg img
 {
-    background-color: #000000;
-    color: white;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .team h4
 {
@@ -423,19 +534,55 @@ line-height: 37.51px;
 text-align: left;
 margin: 1rem 0;
 }
+#team {
+    background-color: #000000; 
+    color: white;
+    padding: 3rem 0;
+
+}
 .team-bg img
 {
-    margin-left: auto;
     display: block;
+    margin-left: auto;
+}
+.team {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
-
-
 .testimonial-card {
-    background-color: #1e1e1e;
-    width: 350px;
-    margin: 1rem 0;
-    height: 86%;
+    background-color: #131114; 
+    border: 1px solid #131114;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.testimonial-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.testimonial-card h5 {
+    font-family: DM Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.2px;
+    text-align: left;
+}
+
+.testimonial-card p {
+    font-family: DM Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: #7a7a7a;
 }
 
 .star-rating i {
@@ -444,27 +591,449 @@ margin: 1rem 0;
     color: #81FFBD;
     font-size: 20px;
 }
-.testimonial-card h5 {
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .testimonial-card img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial-card p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* Ensuring same height for all testimonial cards */
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    display: flex;
+    align-items: stretch;
+} */
+
+.testimonial-card {
+    flex-grow: 1;
+}
+
+#partner
+{
+    text-align: center;
+    margin: 6rem 0;
+}
+.partner h4
+{
+
 font-family: DM Sans;
-font-size: 24px;
+font-size: 18px;
 font-weight: 400;
-line-height: 31.2px;
+line-height: 21.6px;
+}
+.partner h2
+{
+    margin:1.5rem 0;
+font-family: DM Sans;
+font-size: 32px;
+font-weight: 400;
+line-height: 41.6px;
+text-align: center;
+
+}
+
+.logo img
+{
+    margin: 3.5rem 0;
+}
+
+
+.footer {
+    background-color: #000000; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #aaaaaa;
+}
+
+.social-icons a {
+    font-size: 1.2rem; 
+    color: #ffffff;
+}
+
+.social-icons a {
+    font-size: 1.2rem; 
+    color: #ffffff; 
+    background-color: #397BFB; 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+.footer h5 {
+    margin-bottom: 1.5rem;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+
+.email input
+{
+    border-radius: 15px; 
+    padding: 0.6rem 1.2rem;
+    width: 110%;
+}
+input::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #000000;
+}
+.email i
+{
+    font-size: 20px;
+   position: relative;
+   left: 90%;
+   bottom: 48%;
+   color: #000000;
+}
+
+.sp span
+{
+font-family: DM Sans;
+font-size: 30px;
+font-weight: 400;
+line-height: 39px;
 text-align: left;
 
 }
-.testimonial-card p {
+
+.para p
+{
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 300;
+line-height: 23.4px;
+margin: 4.7rem 0;
+}
+.contact p
+{
+    margin: 2.4rem 0;
+}
+.contact h5
+{
+font-family: DM Sans;
+font-size: 30px;
+font-weight: 400;
+line-height: 39px;
+text-align: left;
+}
+.service h5
+{   
     font-family: DM Sans;
-font-size: 13px;
+font-size: 30px;
 font-weight: 400;
-line-height: 20.8px;
+line-height: 39px;
 text-align: left;
-color: #B3B3B3;
-
+}
+.list-unstyled li
+{
+    margin: 16px 0;
 }
 
-.testimonial-card img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 5px; 
+
+.footer {
+    background-color: #111;
+  }
+  
+  .footer h5, .footer h6 {
+    color: white;
+  }
+  
+
+  
+  .footer .social-icons a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .footer .social-icons a:hover {
+    color: white;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Border and padding adjustments */
+  .border-start {
+    border-left: 1px solid white;
+    height: 20px;
+    
+  }
+
+  
+
+
+  /* Services Css Start */
+  #homes
+{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.80)), 
+    url("asset/back.jpg");
+    min-height: 110vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
+.bg-service
+{
+    margin: auto;
+    display: block;
+    margin-top: 5rem;
+    color: white;
+}
+.bg-service h1
+{
+    font-family: DM Sans;
+font-size: 50.11px;
+font-weight: 600;
+line-height: 65.14px;
+text-align: center;
+
+}
+.bg-service p
+{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    
+}
+.bg-service button
+{
+    display: block;
+    margin: auto;
+    width: 150px;
+    background-color: #D9D9D9;
+    color: black;
+    font-size: 19px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#seo 
+{
+    background-color: black;
+    color: white;
+}
+.seo-bg
+{
+    margin: 40px;
+}
+.seo-text
+{
+    margin: 3rem 0;
+}
+.seo-text h1
+{
+    font-family: DM Sans;
+font-size: 50px;
+font-weight: 600;
+line-height: 65px;
+text-align: center;
+}
+
+.seo-text p
+{
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25.2px;
+    text-align: left;
+    margin-top: 2rem;
+
+}
+.seo-text button
+{
+    background-color: #D9D9D9;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+    width: 32%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+.seo-texts
+{
+    margin: 5rem 0;
+    display: block;
+    margin-left: auto;
+}
+.seo-texts h1
+{
+    font-family: DM Sans;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    
+}
+
+.seo-texts p
+{
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25.2px;
+    text-align: left;
+    margin-top: 3rem;
+}
+.seo-texts button
+{
+    background-color: #D9D9D9;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+    width: 32%;
+    padding: 10px;
+    margin-top: 5.8rem;
+
+}
+.seo-text1
+{
+    margin: 5rem 0;
+    display: block;
+    margin-left: auto;
+}
+.seo-text1 h1
+{
+    font-family: DM Sans;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    
+}
+
+.seo-text1 p
+{
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25.2px;
+    text-align: left;
+    margin-top: 3rem;
+}
+.seo-text1 button
+{
+    background-color: #D9D9D9;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+    width: 32%;
+    padding: 10px;
+    margin-top: 2.6rem;
+}
+
+.seo-text3
+{
+    margin: 5rem 0;
+    display: block;
+    margin-left: auto;
+}
+
+.seo-text3 h1
+{
+    font-family: DM Sans;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    
+}
+
+.seo-text3 p
+{
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25.2px;
+    text-align: left;
+    margin-top: 2rem;
+}
+.seo-text3 button
+{
+    background-color: #D9D9D9;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+    width: 32%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-top: 4rem;
+}
+
+  /* Services Css End */
+
+
+  /* Contact Page Start*/
+  #contact
+  {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.80)), 
+    url("asset/contact.jpg");
+    min-height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .contact-text h2
+{
+    color: #FFFFFF;
+font-family: DM Sans;
+font-size: 64px;
+font-weight: 300;
+line-height: 83.2px;
+text-align: center;
+margin-top: 10rem;
+}
+#form
+{
+    background-color: #D9D9D9;
+}
+form
+{
+    background-color: #696969;
+    padding: 20px 30px;
+    margin: 4rem 0;
+    border-radius: 14px;
+}
+  /* Contact Page End*/

@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .choose-text {
+        padding: 0;
+    }
+
+    .col-lg-6 {
+        margin-bottom: 0;
+    }
+
+    #choose h1 {
+        font-size: 2rem;
+    }
+
+    .choose-text p {
+        font-size: 0.9rem;
+    }
+
+    img.img-fluid {
+        margin-top: 0; /* Remove top margin if any */
+    }
+}
