@@ -14,7 +14,7 @@
 
        <!-- Home Section Start -->
        <section id="contact">
-        <nav class="navbar navbar-expand-lg " style="background-color: #131114; width: 62%; display: block; margin: auto; border-radius: 10px; position: relative; top: 10px;">
+        <nav class="navbar navbar-expand-lg " style="background-color: #131114; width: 78%; display: block; margin: auto; border-radius: 10px; position: relative; top: 10px;">
             <div class="container">
               <img src="asset/logo.png" alt="" class="img-fluid" style="width: 170px;">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
                     <a class="nav-link active" aria-current="page" href="index.html" style="color: white; margin-left: 20px;">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white; margin-left: 20px;">About</a>
+                    <a class="nav-link" href="about.html" style="color: white; margin-left: 20px;">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="service.html" style="color: white; margin-left: 20px;">Services</a>
@@ -35,9 +35,12 @@
                     <a class="nav-link" href="#" style="color: white; margin-left: 20px;">Blog</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html" style="color: white; margin-left: 20px;">Contact</a>
+                    <a class="nav-link" href="study.html" style="color: white; margin-left: 20px;">Case Study</a>
                   </li>
-                  <button class="btn btn-primary" style="margin-left: 50px; font-size: 13px;">Contact Me</button>
+                  <li class="nav-item">
+                    <a class="nav-link" href="price.html" style="color: white; margin-left: 20px;">Pricing</a>
+                  </li>
+                 <a href="contact.html"> <button class="btn btn-primary" style="margin-left: 50px; font-size: 13px;">Contact Me</button></a>
                
               </div>
             </div>
@@ -47,7 +50,7 @@
             <div class="row">
                 <div class="col-md-12">
                   <div class="contact-text">
-                    <h2>Let's discuss your project</h2>
+                    <h2>Contact Us</h2>
                   </div>
                 </div>
             </div>
@@ -59,7 +62,7 @@
      <section id="form">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="form-text" style="margin-top: 3rem; color: black;">
                         <h2 style="
                         font-family: DM Sans;
@@ -71,10 +74,10 @@
                         ">Contact </h2> <br>
                         <h5 style="font-family: DM Sans;
                         font-size: 17px;
-                        font-weight: 400;
+                        font-weight: 900;
                         line-height: 27.06px;
                         text-align: left;
-                        color: #131114;">By Email</h5>
+                        color: #131114;">By Email:</h5>
                         <p style="font-family: DM Sans;
                         font-size: 18px;
                         font-weight: 400;
@@ -83,10 +86,10 @@
                         color: #131114;">daniyalintisaar32@gmail.com</p> <br>
                         <h5 style="font-family: DM Sans;
                         font-size: 17px;
-                        font-weight: 400;
+                        font-weight: 900;
                         line-height: 27.06px;
                         text-align: left;
-                        color: #131114;">By Phone</h5>
+                        color: #131114;">By Phone:</h5>
                         <p style="font-family: DM Sans;
                         font-size: 18px;
                         font-weight: 400;
@@ -95,67 +98,128 @@
                         color: #131114;">+971 55 523 2006</p> <br>
                         <h5 style="font-family: DM Sans;
                         font-size: 17px;
-                        font-weight: 400;
+                        font-weight: 900;
                         line-height: 27.06px;
                         text-align: left;
-                        color: #131114;">By Form</h5>
+                        color: #131114;">Address:</h5>
                         <p style="font-family: DM Sans;
                         font-size: 18px;
                         font-weight: 400;
                         line-height: 36.08px;
                         text-align: left;
-                        color: #131114;">Use the contact form to send <br> me a message. I'll get back to <br> you within 24 business hours.</p>
+                        color: #131114;">P24, France Cluster, International City, <br> Dubai, United Arab Emirates.
+</p>
                     </div>
                 </div>
-            <div class="col-md-6">
-                <form class="contact-form">
-                    <div class="row mb-3">
-                      <div class="col">
-                        <label for="" style="color: white;">Name</label>
-                        <input type="text" class="form-control"  required style="border: none; background-color: #696969; border-bottom: 2px solid white; border-radius: 0px;">
+                <div class="col-md-6">
+                  <form class="contact-form" action="https://formspree.io/f/mqakppar" method="POST">
+                      <div class="row mb-3">
+                          <div class="col">
+                              <label style="color: white;">Name</label>
+                              <input type="text" class="form-control" name="name" required>
+                          </div>
+                          <div class="col">
+                              <label style="color: white;">Email</label>
+                              <input type="email" class="form-control" name="email" required>
+                          </div>
                       </div>
-                      <div class="col">
-                        <label for="" style="color: white;">Email</label>
-                        <input type="email" class="form-control"  required  style="border: none; background-color: #696969; border-bottom: 2px solid white; border-radius: 0px;">
+                      <div class="row mb-3">
+                          <div class="col">
+                              <label style="color: white;">Phone No</label>
+                              <input type="text" class="form-control" name="phone">
+                          </div>
+                          <div class="col">
+                              <label style="color: white;">Company Name</label>
+                              <input type="text" class="form-control" name="company">
+                          </div>
                       </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col">
-                        <label for="" style="color: white;">Phone No</label>
-                        <input type="text" class="form-control"  style="border: none; background-color: #696969; border-bottom: 2px solid white; border-radius: 0px;" >
+                      <div class="row mb-3">
+                          <div class="col">
+                              <label style="color: white;">Web URL</label>
+                              <input type="url" class="form-control" name="web">
+                          </div>
+                          <div class="col">
+                              <label style="color: white;">Select Services</label>
+                              <select class="form-select" required name="select">
+                                  <option selected disabled></option>
+                                  <option>Service 1</option>
+                                  <option>Service 2</option>
+                                  <option>Service 3</option>
+                              </select>
+                          </div>
                       </div>
-                      <div class="col">
-                        <label for="" style="color: white;">Company Name</label>
-                        <input type="text" class="form-control"   style="border: none; background-color: #696969; border-bottom: 2px solid white; border-radius: 0px;">
+                      <div class="mb-3">
+                          <label style="color: white;">Your Message</label>
+                          <textarea class="form-control" name="message" rows="3" required></textarea>
                       </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col">
-                        <label for="" style="color: white;">Web URL</label>
-                        <input type="url" class="form-control"   style="border: none; background-color: #696969; border-bottom: 2px solid white; border-radius: 0px;">
-                      </div>
-                      <div class="col">
-                        <label for="" style="color: white;">Select Services</label>
-                        <select class="form-select" required  style="border: none; background-color: #696969; border-bottom: 2px solid white; border-radius: 0px;">
-                          <option selected disabled></option>
-                          <option>Service 1</option>
-                          <option>Service 2</option>
-                          <option>Service 3</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="" style="color: white;">Your Message</label>
-                      <textarea class="form-control" rows="3" required  style="border: none; background-color: #696969; border-bottom: 2px solid white; border-radius: 0px;"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary" style="margin: 1rem 0;">Send Your Message</button>
+                      <button type="submit" class="btn btn-primary">Send Your Message</button>
                   </form>
-            </div>
+              </div>
+              
             </div>
         </div>
 
      </section>
     <!-- Contact Form End -->
+
+     <!-- Footer Start -->
+     <footer class="footer pt-5 pb-3 text-white">
+      <div class="container">
+          <div class="row">
+              <!-- Logo and Intro -->
+              <div class="col-md-4 col-12 text-center text-md-start mb-4 mb-md-0">
+                  <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
+                      <img src="asset/gl.png" alt="USEO Logo" style="height: 50px; margin: 1rem 0;"> <!-- Replace with your logo path -->
+                  </div>
+                  <h6 style="font-size: 15px; line-height: 30px;">Now you know about us, we’d love to get to know you better. Why not drop us a message today and introduce yourself? It could be the beginning of a beautiful relationship!</h6>
+                  <p>Dubai | Toronto | Riyadh</p>
+                  <div class="social-icons d-flex justify-content-center justify-content-md-start">
+                      <a href="https://www.youtube.com/channel/UCbIbUEFI0xidx8e7Ov8Zu7A" class="text-white me-3"><i class="fab fa-youtube"></i></a>
+                      <a href="https://www.instagram.com/daniyalintisar_ulhaq/" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/daniyal-intisar-7b2342132" target="_parent" class="text-white"><i class="fab fa-linkedin"></i></a>
+                  </div>
+              </div>
+  
+              <!-- Contact Info -->
+              <div class="col-md-3 col-6 mb-4 mb-md-0 text-center text-md-start border-start-md border-light ps-md-4">
+                  <h6 class="ct"><span class="ct">|</span> Contact Us</h6>
+                  <p>1207 Mazaya BB2 JLT, Dubai</p>
+                  <p>Call Us: +971 4 442 6518</p>
+                  <p>Email Us: info@useo.ae</p>
+                  <p>Send Inquiry Request</a></p>
+                  <p>Schedule Meeting</a></p>
+              </div>
+  
+              <!-- Solutions -->
+              <div class="col-md-3 col-6 mb-4 mb-md-0 text-center text-md-start border-start-md border-light ps-md-4">
+                  <h6 class="ct"><span class="ct">|</span> Dive Into the Solutions</h6>
+                  <ul class="list-unstyled">
+                      <li>Web Design & Development</a></li>
+                      <li>Digital Marketing</a></li>
+                      <li>Social Media Marketing</a></li>
+                      <li>Branding</a></li>
+                      <li>Digital Consultancy</a></li>
+                  </ul>
+              </div>
+  
+              <!-- Quick Links -->
+              <div class="col-md-2 col-12 text-center text-md-start border-start-md border-light ps-md-4">
+                  <h6 class="ct"><span class="ct">|</span> Quick Links</h6>
+                  <ul class="list-unstyled">
+                      <li>Blogs</a></li>
+                      <li>E-Books</a></li>
+                      <li>Who We Are?</a></li>
+                      <li>Contact Us</a></li>
+                      <li>Schedule Meeting</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="text-center mt-4">
+              <p>Copyright © 2023 NS Training.</p>
+          </div>
+      </div>
+  </footer>
+  <!-- Footer End -->
     
 
 

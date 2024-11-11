@@ -35,3 +35,79 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+  // Select the cursor dot element
+  const cursorDot = document.querySelector(".cursor-dot");
+
+  // Set up initial cursor dot position variables
+  let mouseX = 0, mouseY = 0;
+
+  // Track the cursor's actual position
+  document.addEventListener("mousemove", (e) => {
+      mouseX = e.pageX;
+      mouseY = e.pageY;
+  });
+
+  // Animate the dot to smoothly follow the cursor
+  gsap.to(cursorDot, {
+      x: () => mouseX,
+      y: () => mouseY,
+      ease: "power2.out",
+      duration: 0.15
+  });
+
+  
+  document.querySelector('.cards-number-input').oninput = () =>{
+    document.querySelector('.cards-number-box').innerText = document.querySelector('.cards-number-input').value;
+}
+
+document.querySelector('.cards-holder-input').oninput = () =>{
+    document.querySelector('.cards-holder-name').innerText = document.querySelector('.cards-holder-input').value;
+}
+
+document.querySelector('.month-input').oninput = () =>{
+    document.querySelector('.exp-month').innerText = document.querySelector('.month-input').value;
+}
+
+document.querySelector('.year-input').oninput = () =>{
+    document.querySelector('.exp-year').innerText = document.querySelector('.year-input').value;
+}
+
+document.querySelector('.cvv-input').onmouseenter = () =>{
+    document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(-180deg)';
+    document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(0deg)';
+}
+
+document.querySelector('.cvv-input').onmouseleave = () =>{
+    document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(0deg)';
+    document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(180deg)';
+}
+
+document.querySelector('.cvv-input').oninput = () =>{
+    document.querySelector('.cvv-box').innerText = document.querySelector('.cvv-input').value;
+}
+
+$("#switch_id").change(function(){
+    if($(this).is(":checked")){
+        $(".yearly").show();
+        $(".monthly").hide();
+    }else {
+        $(".yearly").hide();
+        $(".monthly").show();
+    }
+})
+
+
+let skilsContent = select('.skills-content');
+if (skilsContent) {
+ new Waypoint({
+   element: skilsContent,
+   offset: '80%',
+   handler: function(direction) {
+     let progress = select('.progress .progress-bar', true);
+     progress.forEach((el) => {
+       el.style.width = el.getAttribute('aria-valuenow') + '%'
+     });
+   }
+ })
+}
+
