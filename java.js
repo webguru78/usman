@@ -116,3 +116,9 @@ const testimonialCarousel = document.querySelector('#testimonialCarousel');
 testimonialCarousel.addEventListener('slid.bs.carousel', () => {
     // Customize behavior after slide change if needed
 });
+
+var cursor = document.querySelector(".cursor");
+var cursor2 = document.querySelector(".cursor2");
+document.addEventListener("mousemove",function(e){
+  cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+});
