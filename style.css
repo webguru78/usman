@@ -1929,3 +1929,318 @@ margin-top: 2rem;
     background-color: #6c757d;
     border-color: #6c757d;
 }
+
+/* Course Start */
+.course-bg
+{
+    margin-top: 3rem;
+    color: white;
+}
+.course-bg h2
+{
+    font-family: DM Sans;
+font-size: 56px;
+font-weight: 500;
+line-height: 80px;
+text-align: left;
+}
+.course-bg p
+{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 26.04px;
+text-align: left;
+color: white;
+}
+.course-bg a
+{
+    background-color: #FF4548;
+    color: white;
+    border: 1px solid #FF4548;
+    border-radius: 24px;
+    padding: 10px 15px;
+    font-family: DM,sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+}
+.course-boy img
+{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    
+}
+.modules-section h2 {
+    font-family: DM Sans;
+    font-size: 43px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 83.33px;
+    text-align: center;    
+    margin-bottom: 30px;
+}
+
+.module-box {
+    background-color: #fff;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    min-height: 30vh;
+}
+
+.module-box img {
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.module-box h5 {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 31.25px;
+    text-align: center;
+    
+    
+}
+
+.module-box:hover {
+    transform: scale(1.05);
+    border-color: #333;
+}
+.form1
+{
+    background-color: #f1c40f;
+    min-height: 95vh;
+    margin-top: 0rem;
+}
+.form1 button
+{
+    background-color: #140342;
+    display: block;
+    margin: auto;
+    color: white;
+    border: 1px solid #140342;
+    padding: 10px 12px;
+    width: 33%;    
+    margin-top: 2rem;
+}
+.form1 input
+{
+    padding: 15px;
+}
+
+.cert-text h2
+{
+    font-family: DM Sans;
+font-size: 45px;
+font-weight: bold;
+line-height: 83.33px;
+text-align: center;
+color: #000000;
+}
+.cert-text p
+{
+    text-align: center;
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 26.04px;
+}
+
+.cert-bg img
+{
+    margin-top: 1rem;
+    display: block;
+}
+
+.career-section
+{
+    background-color: #140342;
+    margin-top: 5rem;
+}
+.career-section {
+    color: #fff;
+}
+
+.career-heading {
+    font-family: DM Sans;
+font-size: 50px;
+font-weight: 800;
+text-align: left;
+    margin-bottom: 20px;
+}
+
+.career-description {
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 31.25px;
+text-align: left;
+color: #FFFFFFB2;
+}
+
+.career-box {
+    background-color: #26255b;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    margin: 10px 0;
+    
+}
+.career-content
+{
+    margin-top: 3rem;
+}
+.career-box img {
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.career-box h6 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.career-box:hover {
+    transform: scale(1.05);
+    background-color: #333366;
+}
+
+.trusted-heading {
+    font-family: DM Sans;
+    font-size: 43px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 84px;
+  }
+  
+  .logos-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(1); /* Optional: for grayscale effect */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+  }
+  
+
+  .standout-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .table-container {
+    max-width: 900px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .feature-header, .feature-content {
+    border: 1px solid #fff; /* White border between cells */
+  }
+  
+  .feature-header {
+    background-color: #2c2262; /* Dark Purple */
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feature-content {
+    background-color: #f9b233; /* Orange */
+    color: #000000;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feature-header i, .feature-content i {
+    font-size: 1.2rem;
+    margin-right: 8px;
+  }
+
+  .table-container {
+    min-height: 70vh;
+    width: 100%;
+    border-radius: 24px;
+  }
+  .carousel-item {
+    text-align: center;
+}
+
+.testimonial {
+    padding: 20px;
+    background: #140342;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #140342;
+}
+
+.testimonial-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: white;
+    margin: 20px 0;
+}
+
+.client-name {
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.client-role {
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Styling for the carousel dots */
+.carousel-indicators button {
+
+    border-radius: 50%; /* Make them round */
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #007bff; /* Highlight active dot with blue color */
+}
+
+/* Optional: Optional styling for the carousel controls (arrows) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Make arrows black */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+/* Course End */

@@ -111,3 +111,8 @@ if (skilsContent) {
  })
 }
 
+// Optional: Adjust the carousel interval speed
+const testimonialCarousel = document.querySelector('#testimonialCarousel');
+testimonialCarousel.addEventListener('slid.bs.carousel', () => {
+    // Customize behavior after slide change if needed
+});
